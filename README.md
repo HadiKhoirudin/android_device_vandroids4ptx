@@ -28,3 +28,33 @@ https://cloud.mail.ru/public/EJbM/c7nwdrds9/MocorDroid5.1_3.10_Tshark_15a_W15.32
 by kabani91@4pda.ru
 
 
+=====================================
+
+Basic   | Spec Sheet ADVAN S4P
+CHIPSET | Spreadtrum SP7731GEA_V1.0.0
+BOARD   | SC8830
+GPU     | Mali-400MP2
+Memory  | 512 MB
+Shipped Android Version | Android 4.4.2
+Unofficial Android Version | Android 5.1.1
+
+=====================================
+
+Basic   | Spec Sheet ADVAN S4X
+CHIPSET | Spreadtrum SP7731GEA_V1.0.0
+BOARD   | SC8830
+GPU     | Mali-400MP2
+Memory  | 1 GB
+Shipped Android Version | Android 4.4.2
+Unofficial Android Version | Android 5.1.1
+
+=====================================
+
+Basic   | Spec Sheet ADVAN S4T
+CHIPSET | Spreadtrum SP7731GEA_HDR_V1.0.0
+BOARD   | SC8830
+GPU     | Mali-400MP2
+Memory  | 512 MB
+Shipped Android Version | Android 5.1.1
+
+
