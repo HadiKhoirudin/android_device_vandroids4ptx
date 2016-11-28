@@ -8,9 +8,12 @@ Copyright 2014 - The CyanogenMod Project
 Advan Vandroid S4PTX is Advan Vandroid model S4P, S4T, & S4X 
 where are running on same kernel, 1 kernel compatible for 3 devices.
 
-CM-12.1 Samsung SM-G531H has been tested to running on Advan Vandroid S4PTX with kernel for our devices
+CM-12.1 Samsung SM-G531H has been tested to use & boot on Advan Vandroid S4PTX with kernel for our devices
 But different source make our devices cannot turning Wi-Fi for ap_mode / p2p_mode * hotspot Wi-Fi
-Wi-Fi only working for connect to internet, cannot turning on hotspot mode.
+our devices has sprdwl which different than Samsung SM-G531H devices.
+
+Known bugs only
+Wi-Fi working, but only for connect to internet, cannot turning on hotspot mode.
 
 Based on current Source from CM-12.1 Samsung SM-G531H where has been contributed by koquantam a.k.a doesntexist@XDA
 we need rebuild CM-12.1 with current configuration from CM-12.1 Samsung SM-G531H & modified Wi-Fi configuration based our devices configuration.
