@@ -17,7 +17,9 @@ we need rebuild CM-12.1 with current configuration from CM-12.1 Samsung SM-G531H
 
 For Source kernel and or Source vendor SC7731 Lollipop General you can find from this link :
 
-MocorDroid5.1_3.10_Tshark_15a_W15.32.3 Size : 7GB
+MocorDroid5.1_3.10_Tshark_15a_W15.32.3 
+Size : 7GB
+
 https://cloud.mail.ru/public/EJbM/c7nwdrds9/MocorDroid5.1_3.10_Tshark_15a_W15.32.3/
 
 by kabani91@4pda.ru
