@@ -1,0 +1,90 @@
+# Un-categorized
+bin/at_distributor
+bin/npsmobex
+bin/refnotify
+bin/engpc
+lib/libatparser.so
+
+# GPS
+etc/gps.xml
+bin/gpsd
+bin/gps.cer
+lib/liblcsagent.so
+lib/hw/gps.default.so
+
+# Graphics rendering
+lib/libboost.so
+lib/egl/libGLES_mali.so
+
+# Audio
+etc/audio_hw.xml
+etc/audio_para
+etc/codec_pga.xml
+etc/tiny_hw.xml
+etc/audio_policy.conf
+lib/libfactoryutil.so
+lib/libomission_avoidance.so
+lib/libatchannel.so
+
+# RIL
+bin/rild
+bin/modemd
+bin/nvitemd
+bin/phoneserver
+bin/modem_control
+bin/ext_data.sh
+bin/ext_kill.sh
+bin/ext_symlink.sh
+bin/prepare_param.sh
+lib/libril.so
+lib/libreference-ril_sp.so
+lib/libsecril-client.so
+lib/libsecnativefeature.so
+
+# Camera
+lib/libaf.so
+lib/libAl_Awb.so
+lib/libAl_Awb_Sp.so
+lib/libae.so
+lib/libawb.so
+lib/libcalibration.so
+lib/libcamerainfo.so
+lib/libdeflicker.so
+lib/libface_finder.so
+lib/libisp.so
+lib/liblsc.so
+lib/libmorpho_easy_hdr.so
+lib/libsft_af_ctrl.so
+lib/libtsfacebeautify.so
+lib/libspaf.so
+lib/libynoise.so
+
+# ION
+lib/libmemoryheapion.so
+
+# Codecs
+lib/libomx_avcdec_hw_sprd.so
+lib/libomx_avcenc_hw_sprd.so
+lib/libomx_vpxdec_hw_sprd.so
+lib/libomx_m4vh263enc_hw_sprd.so
+lib/libomx_m4vh263dec_sw_sprd.so
+lib/libomx_m4vh263dec_hw_sprd.so
+
+# Stagefright
+lib/libstagefrighthw.so
+lib/libstagefright_sprd_h264dec.so
+lib/libstagefright_sprd_h264enc.so
+lib/libstagefright_sprd_mp3dec.so
+lib/libstagefright_sprd_mpeg4dec.so
+lib/libstagefright_sprd_mpeg4enc.so
+lib/libstagefright_sprd_vpxdec.so
+
+# HAL
+lib/hw/camera.sc8830.so
+lib/hw/gralloc.sc8830.so
+lib/hw/hwcomposer.sc8830.so
+lib/hw/sensors.sc8830.so
+lib/hw/sprd_gsp.sc8830.so
+
+# Magnetic sensor
+lib/libyasalgo.so
