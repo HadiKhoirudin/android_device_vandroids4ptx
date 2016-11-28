@@ -1,31 +1,24 @@
 Copyright 2014 - The CyanogenMod Project
 ===================================
 
-Device configuration for Advan Vandroid S4PTX SPRD (vandroids4ptx)
+# Introduction
 
-		instruction how to build
+	Device configuration for Advan Vandroid S4PTX SPRD (vandroids4ptx)
 
-I think you already set up build enviroment so I will skip this.
-First go to your working dir/build/tools/device and open in gedit makerecoveries.sh
-Find line 
-		make -j16 recoveryzip
-and replace it with
-		make recoveryzip
-beacause it wont eat your RAM and build will be faster
+Advan Vandroid S4PTX is Advan Vandroid model S4P, S4T, & S4X 
+where are running on same kernel, 1 kernel compatible for 3 devices.
 
+CM-12.1 Samsung SM-G531H has been tested to running on Advan Vandroid S4PTX with kernel for our devices
+But different source make our devices cannot turning Wi-Fi for ap_mode / p2p_mode * hotspot Wi-Fi
+Wi-Fi only working for connect to internet, cannot turning on hotspot mode.
 
-After you finshed repo sync go in your working dir/device/
-and create folder /advan/vandroids4ptx and copy content of vandroids4ptx
-that you downloaded from here.
+Based on current Source from CM-12.1 Samsung SM-G531H where has been contributed by koquantam a.k.a doesntexist@XDA
+we need rebuild CM-12.1 with current configuration from CM-12.1 Samsung SM-G531H & modified Wi-Fi configuration based our devices configuration.
 
-For build recovery, run this command in terminal from your working dir 
+For Source kernel and or Source vendor SC7731 Lollipop General you can find from this link :
 
-		. build/envsetup.sh
-		lunch cm_vandroids4ptx-userdebug && make recoveryimage
+MocorDroid5.1_3.10_Tshark_15a_W15.32.3 Size : 7GB
+https://cloud.mail.ru/public/EJbM/c7nwdrds9/MocorDroid5.1_3.10_Tshark_15a_W15.32.3/
 
-Your build will start and you will find your recovery.img in your working dir/out/target/product/vandroids4ptx
-
-And for build rom, run this command in terminal from your working dir 
-
-		. build/envsetup.sh && brunch vandroids4ptx
+by kabani91@4pda.ru
 
