@@ -1,6 +1,6 @@
 #!/bin/sh
 
-VENDOR=vandroid
+VENDOR=advan
 DEVICE=vandroids4ptx
 OUTDIR=vendor/$VENDOR/$DEVICE
 
