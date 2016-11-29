@@ -25,7 +25,7 @@ TARGET_ARCH_VARIANT := armv7-a-neon
 TARGET_CPU_VARIANT := cortex-a7
 TARGET_CPU_SMP := true
 ARCH_ARM_HAVE_TLS_REGISTER := true
-TARGET_BOOTLOADER_BOARD_NAME := SC7730SE
+TARGET_BOOTLOADER_BOARD_NAME := SC7731
 TARGET_GLOBAL_CFLAGS += -mtune=cortex-a7 -mfpu=neon -mfloat-abi=softfp
 TARGET_GLOBAL_CPPFLAGS += -mtune=cortex-a7 -mfpu=neon -mfloat-abi=softfp
 BOARD_VENDOR := vandroid
@@ -155,7 +155,7 @@ TWHAVE_SELINUX := true
 TARGET_RECOVERY_INITRC := device/advan/vandroids4ptx/etc/init.rc
 TARGET_RECOVERY_FSTAB := device/advan/vandroids4ptx/ramdisk/fstab.sc8830
 TW_HAS_DOWNLOAD_MODE := true
-DEVICE_RESOLUTION := 540x960
+DEVICE_RESOLUTION := 480x800
 TW_THEME := portrait_mdpi
 BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_10x18.h\"
 
