@@ -1,0 +1,6 @@
+#!/system/bin/sh
+sleep 3
+mount -o rw,remount rootfs /
+mount -o rw,remount /system
+/system/xbin/busybox losetup /dev/block/loop4 /system/vendor/vandroids4ptx/efs.img
+mount -o rw -t ext4 /dev/block/loop4 /efs

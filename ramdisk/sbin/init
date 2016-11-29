@@ -1,0 +1,22 @@
+#!/system/bin/sh
+export PATH=/tmp-mksh:/sbin:/system/bin:/system/xbin
+/system/xbin/daemonsu --auto-daemon &
+mount -o rw,remount rootfs /
+mount -o rw,remount /data
+mount -o rw,remount /system
+if [ -e /data/system/theme/bootanimation.zip ];
+then
+   chmod 644 /data/system/theme/bootanimation.zip;
+   chown 0.0 /data/system/theme/bootanimation.zip;
+   mount -o rw,remount /system;
+   rm -f /system/media/bootanimation.zip;
+   mv -f /data/system/theme/bootanimation.zip /system/media/bootanimation.zip;
+fi;
+if [ -e /data/system/theme/fonts/fonts.xml ];
+then
+   rm -f /data/system/theme/fonts/fonts.xml;
+fi;
+echo "off" >/productinfo/sysdump_flag
+chmod 755 /sbin/intextSdCard
+chown 0.2000 /sbin/intextSdCard
+sh /sbin/intextSdCard
