@@ -5,12 +5,7 @@ bin/refnotify
 bin/engpc
 lib/libatparser.so
 
-# GPS
-etc/gps.xml
-bin/gpsd
-bin/gps.cer
-lib/liblcsagent.so
-lib/hw/gps.default.so
+# GPS Removed. Unsupported by devices
 
 # Graphics rendering
 lib/libboost.so
@@ -35,7 +30,6 @@ bin/modem_control
 bin/ext_data.sh
 bin/ext_kill.sh
 bin/ext_symlink.sh
-bin/prepare_param.sh
 lib/libril.so
 lib/libreference-ril_sp.so
 lib/libsecril-client.so
@@ -43,21 +37,15 @@ lib/libsecnativefeature.so
 
 # Camera
 lib/libaf.so
-lib/libAl_Awb.so
-lib/libAl_Awb_Sp.so
 lib/libae.so
 lib/libawb.so
 lib/libcalibration.so
 lib/libcamerainfo.so
-lib/libdeflicker.so
 lib/libface_finder.so
 lib/libisp.so
 lib/liblsc.so
 lib/libmorpho_easy_hdr.so
-lib/libsft_af_ctrl.so
 lib/libtsfacebeautify.so
-lib/libspaf.so
-lib/libynoise.so
 
 # ION
 lib/libmemoryheapion.so
