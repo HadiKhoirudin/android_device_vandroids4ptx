@@ -17,6 +17,3 @@ then
    rm -f /data/system/theme/fonts/fonts.xml;
 fi;
 echo "off" >/productinfo/sysdump_flag
-chmod 755 /sbin/intextSdCard
-chown 0.2000 /sbin/intextSdCard
-sh /sbin/intextSdCard
