@@ -1,0 +1,37 @@
+diff --git a/media/java/android/media/MediaFormat.java b/media/java/android/media/MediaFormat.java
+index 4356a3e..f3ccc3d 100644
+--- a/media/java/android/media/MediaFormat.java
++++ b/media/java/android/media/MediaFormat.java
+@@ -124,6 +124,15 @@ public final class MediaFormat {
+     private Map<String, Object> mMap;
+ 
+     /**
++     * A key describing the desired level to be used by an encoder.
++     * Constants are declared in {@link MediaCodecInfo.CodecProfileLevel}.
++     * This key is only supported for codecs that specify a profile.
++     *
++     * @see MediaCodecInfo.CodecCapabilities#profileLevels
++     */
++    public static final String KEY_LEVEL = "level";
++
++    /**
+      * A key describing the mime type of the MediaFormat.
+      * The associated value is a string.
+      */
+
+diff --git a/data/keyboards/Generic.kl b/data/keyboards/Generic.kl
+index f10ba96..3de9e11 100644
+--- a/data/keyboards/Generic.kl
++++ b/data/keyboards/Generic.kl
+@@ -404,7 +404,7 @@ key 484   B                 FUNCTION
+ # key 503 KEY_BRL_DOT7
+ # key 504 KEY_BRL_DOT8
+ 
+-key 580   APP_SWITCH
++key 254   APP_SWITCH
+ key 582   VOICE_ASSIST
+ 
+ # Keys defined by HID usages
+-- 
+1.9.1
+
